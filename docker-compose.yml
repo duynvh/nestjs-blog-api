@@ -1,0 +1,12 @@
+version: '3'
+services:
+  database:
+    image: bitnami/postgresql:latest
+    volumes:
+      - ./data:/bitnami
+    environment:
+      - 'POSTGRESQL_USERNAME=nestjs-blog-api'
+      - 'POSTGRESQL_PASSWORD=nestjs-blog-api'
+      - 'POSTGRESQL_DATABASE=nestjs-blog-api'
+    ports:
+      - '5432:5432'

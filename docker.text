@@ -1,0 +1,8 @@
+docker run -d --name postgres-demo \
+  --privileged=true \
+  -e POSTGRESQL_USERNAME="demo" \
+  -e POSTGRESQL_PASSWORD=demo\
+  -e POSTGRESQL_DATABASE="demo" \
+  -v d:/Code/docker:/bitnami \
+  -p 5432:5432\
+  bitnami/postgresql:latest
