@@ -7,14 +7,14 @@ A Simple CRUD Web API with NestJs, Postgres, Sequelize ORM.
 ## Installation
 
 ```bash
-$ git clone https://github.com/onwuvic/nest-blog-api.git
+$ git clone https://github.com/duynvh/nest-blog-api.git
 ```
 
 ## Running the app
 
 - cd into `nest-blog-api`
 - run `npm install`
-- set up your postgres database
+- set up your postgres database or run `docker-compose up -d` if you use docker
 - rename `.env.sample` to `.env` and populate the required parameters
 - run `npm run start:dev`
 
@@ -32,8 +32,7 @@ $ npm run start:prod
 
 ## Stay in touch
 
-- Author - Victor Onwuzor
-- Twitter - [@victoronwuzor](https://twitter.com/victoronwuzor)
+- Author - Duy NVH
 
 ## License
 [MIT licensed](LICENSE).
